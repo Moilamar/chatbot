@@ -31,3 +31,12 @@ Run environment
 cd chatbot
 source bin/activate
 ```
+Install dependencies (first time only)
+```
+python3 install.py
+```
+## Running application
+Run test script manually
+```
+python3 src/index.py
+```
