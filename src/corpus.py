@@ -5,6 +5,7 @@ import numpy as np
 import random
 import string
 
+# File for testing stuff
 
 remove_punct_dict = dict((ord(punct), None) for punct in string.punctuation)
 __lemmer = nltk.stem.WordNetLemmatizer()

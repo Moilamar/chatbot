@@ -1,10 +1,9 @@
 from corpus import readFile, processFile
 from chatbot import ChatBot
 
-
-file = readFile("corpus.txt")
-
-processFile(file)
+# Testing
+# file = readFile("corpus.txt")
+# processFile(file)
 
 chatBot = ChatBot()
 
