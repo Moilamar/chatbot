@@ -7,4 +7,9 @@ from chatbot import ChatBot
 
 chatBot = ChatBot()
 
-chatBot.readSentence("sup")
+while (True):
+    userInput = input('You: ')
+
+    chatBot.readSentence(userInput)
+
+    print()
